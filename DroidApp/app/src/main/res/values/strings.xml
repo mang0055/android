@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"rahi's droid"</string>
+    <string name="action_about">About</string>
+    <string name="author">Raviraj Mangukiya (mang0055)</string>
+    <string name="username">mang0055</string>
+    <string name="password">password</string>
+    <string name="hint_username">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="label_login">Login</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="label_register">New User / Register</string>
+    <string name="label_forget_password">Forgot Password</string>
+    <string name="label_remember_me">Remember me ?  </string>
+
+</resources>
