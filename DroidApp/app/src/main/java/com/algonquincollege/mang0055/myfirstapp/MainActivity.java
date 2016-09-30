@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Random;
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void resetGame() {
-        Toast.makeText(getApplicationContext(), "You are Done with moves.\n\nPlease reset the Game.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "You are Done with moves.\n\nPlease reset the Game using LongClick Guess.", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -112,10 +113,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private int generateRandomNumber() {
-        int min = 0;
         int max = 1000;
         Random r = new Random();
-        int i1 = r.nextInt(max - min + 1) + min;
+        int i1 = r.nextInt(max + 1) ;
         Log.e(TAG, i1 + " Random Number");
         return i1;
     }
@@ -141,5 +141,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showAttempts(){
+
     }
 }
