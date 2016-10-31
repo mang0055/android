@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">\"rahi\'s droid\"</string>
+    <string name="action_about">बारे में</string>
+    <string name="hint_password">सांकेतिक शब्द</string>
+    <string name="hint_username">उपयोगकर्ता नाम</string>
+    <string name="label_forget_password">पासवर्ड भूल गए ?</string>
+    <string name="label_login">लॉग इन करें</string>
+    <string name="label_register">नई उपयोगकर्ता / पंजीकरण</string>
+    <string name="label_remember_me">मुझे याद रखना ?</string>
+    <string name="label_sign_in">साइन इन करें</string>
+    <string name="password">सांकेतिक शब्द</string>
+    <string name="string_hint_game_instructions">सरल खेल है जहाँ आप 1000 के लिए 0 के बीच नंबर लगता है और सही शीर्ष कोने अनुमान बटन हिट की जरूरत है। यदि संख्या है कि आप अंदाज़ा लगा कम या अधिक स्क्रीन खत्म हो गया है आप देख सकते हैं। शुभ लाभ !</string>
+    <string name="string_hint_guess_number">एक संख्या अनुमान</string>
+</resources>
